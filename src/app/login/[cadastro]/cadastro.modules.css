@@ -1,0 +1,42 @@
+.cadastroForms fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .cadastroForms legend {
+    margin: 30px auto;
+  }
+  .cadastroForms div label {
+    padding: 10px;
+    font-weight: 600;
+  }
+  
+  .cadastroForms {
+    background: white;
+  }
+  .cadastroForms div {
+    width: 300px;
+  }
+  
+  .cadastroForms div input {
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 1px;
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button button {
+    background-color: gray;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 16px;
+    cursor: pointer;
+  }
