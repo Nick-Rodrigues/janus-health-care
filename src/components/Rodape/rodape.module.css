@@ -1,0 +1,40 @@
+.integrantes-main div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+footer {
+  background: linear-gradient(
+    360deg,
+    rgb(35 25 0) 0%,
+    rgb(73 52 2) 27%,
+    rgb(73 52 2) 72%,
+    rgb(39 28 0) 100%
+  );
+}
+
+.integrantes-main div figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer figure figcaption {
+  color: gold;
+  width: 300px;
+  background: #80808030;
+  padding: 12px;
+  margin: 10px auto;
+}
+
+@media (max-width: 900px) {
+  footer figure figcaption {
+    color: gold;
+    width: 250px;
+    background: #80808030;
+    padding: 12px;
+    margin: 10px auto;
+  }
+}
