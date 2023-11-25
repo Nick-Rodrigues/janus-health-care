@@ -1,0 +1,14 @@
+{
+    "usuarios":[
+        {
+            "id":1,
+            "nome":"Nicolas",
+            "senha":"123",
+            "nascimento":"09-12-2002",
+            "cpf":"45877496580",
+            "email":"nicolas@gmail.com",
+            "peso":"74",
+            "altura":"180"
+        }
+    ]
+}
