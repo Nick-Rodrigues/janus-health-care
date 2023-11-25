@@ -1,0 +1,38 @@
+.loginForms {
+    background-color: white;
+    height: 240px;
+  }
+  
+  .loginForms form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .loginForms form legend {
+    padding: 10px;
+    font-weight: 600px;
+    text-align: center;
+  }
+  
+  .loginForms label {
+    padding: 10px;
+  }
+  .loginForms input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button button {
+    background-color: gray;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 16px;
+    cursor: pointer;
+  }
